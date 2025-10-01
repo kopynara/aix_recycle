@@ -1,8 +1,8 @@
-# Python 캐시
+# Python 캐시/빌드
 __pycache__/
 *.py[cod]
 
-# 가상환경
+# 가상환경/IDE
 venv/
 .v_env*/
 env/
@@ -10,14 +10,19 @@ ENV/
 .vscode/
 .idea/
 
-# 데이터 (용량 큰 raw/processed)
+# 데이터 (대용량 제외)
 datasets/
 data/
 
-# 환경 파일
+# 환경 설정
 .env
 *.env
 
-# OS 파일
+# OS/에디터 파일
 .DS_Store
 Thumbs.db
+
+# 모델 가중치 (대용량 제외)
+*.keras
+*.h5
+*.ckpt
