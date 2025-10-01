@@ -1,0 +1,25 @@
+# 📂 개인 세팅 (changdo.yaml)
+
+# 데이터 경로
+data:
+  raw_path: ~/projects/datasets/raw/train          # 원본 데이터 경로
+  processed_path: ~/projects/datasets/processed   # 전처리 후 데이터 저장 경로
+
+# 데이터 분리 비율 (팀 공용 8:2:0 반영)
+split:
+  ratio: [0.8, 0.2, 0.0]   # train 80%, val 20%, test 0%
+
+# 데이터 불균형 대응
+imbalance:
+  use_class_weight: true       # 클래스 가중치 자동 계산
+  augment_small_classes: true  # 데이터 적은 클래스만 증강
+  min_samples: 500             # 최소 샘플 개수 기준
+
+# 데이터 증강 옵션
+augmentation:
+  rotation_range: 20
+  width_shift_range: 0.2
+  height_shift_range: 0.2
+  shear_range: 0.2
+  zoom_range: 0.2
+  horizontal_flip: true

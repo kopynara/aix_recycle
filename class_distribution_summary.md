@@ -1,0 +1,35 @@
+# 📊 클래스 분포 요약
+
+> 🚨 test는 무시하세요 (split_ratio=8:2:0 설정인데 splitfolders 특성상 최소 0~1개 생성됨)
+
+| Class | Train | Val | Test |
+|-------|-------|-----|------|
+| battery | 2617 | 654 | 1 |
+| can_alum1 | 20958 | 5239 | 1 |
+| can_alum2 | 10824 | 2706 | 1 |
+| can_steel1 | 10415 | 2603 | 1 |
+| can_steel2 | 22527 | 5631 | 1 |
+| can_steel3 | 1040 | 260 | 0 |
+| fluorescent_lamp | 1922 | 480 | 1 |
+| glass_brown | 13444 | 3361 | 1 |
+| glass_clear | 13699 | 3424 | 1 |
+| glass_green | 13420 | 3355 | 1 |
+| paper1 | 19661 | 4915 | 1 |
+| paper2 | 12100 | 3025 | 0 |
+| pet_clear1 | 19064 | 4766 | 0 |
+| pet_clear2 | 19875 | 4968 | 1 |
+| pet_clear3 | 19323 | 4830 | 1 |
+| pet_color1 | 21714 | 5428 | 1 |
+| pet_color2 | 21424 | 5356 | 0 |
+| pet_color3 | 6180 | 1545 | 0 |
+| plastic_pe1 | 23593 | 5898 | 1 |
+| plastic_pe2 | 14598 | 3649 | 1 |
+| plastic_pp1 | 20107 | 5026 | 1 |
+| plastic_pp2 | 22892 | 5723 | 0 |
+| plastic_pp3 | 15348 | 3837 | 1 |
+| plastic_ps1 | 24075 | 6018 | 1 |
+| plastic_ps2 | 23366 | 5841 | 1 |
+| plastic_ps3 | 10860 | 2715 | 1 |
+| styrofoam1 | 20706 | 5176 | 1 |
+| styrofoam2 | 1702 | 425 | 1 |
+| vinyl | 13455 | 3363 | 1 |

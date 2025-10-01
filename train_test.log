@@ -1,0 +1,5 @@
+2025-10-02 01:57:24,651 [INFO] 🚀 테스트 학습 시작
+2025-10-02 01:57:24,651 [INFO] ✅ Apple Silicon GPU(Metal) 사용 가능
+2025-10-02 01:57:24,716 [INFO] 총 클래스 수: 29, 클래스 이름: ['battery', 'can_alum1', 'can_alum2', 'can_steel1', 'can_steel2', 'can_steel3', 'fluorescent_lamp', 'glass_brown', 'glass_clear', 'glass_green', 'paper1', 'paper2', 'pet_clear1', 'pet_clear2', 'pet_clear3', 'pet_color1', 'pet_color2', 'pet_color3', 'plastic_pe1', 'plastic_pe2', 'plastic_pp1', 'plastic_pp2', 'plastic_pp3', 'plastic_ps1', 'plastic_ps2', 'plastic_ps3', 'styrofoam1', 'styrofoam2', 'vinyl']
+2025-10-02 01:57:24,716 [INFO] ✅ 클래스 가중치 로드 및 매핑 완료
+2025-10-02 01:59:52,947 [INFO] ✅ 최종 테스트 모델 저장 완료: trash_classifier_efficientnetv2S_test_best_final.keras

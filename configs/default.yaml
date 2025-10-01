@@ -1,0 +1,19 @@
+dataset:
+  raw_path: "../datasets/raw/train"       # 원본 데이터 (공유 X)
+  processed_path: "../datasets/processed" # split된 데이터
+  split_ratio: [0.8, 0.2, 0.0]            # train:val:test 비율 (공용은 8:2:0 통일)
+  target_size: [224, 224]                 # 이미지 크기
+  batch_size: 32                          # 배치 크기
+  use_class_weight: true                  # 데이터 불균형 대응
+
+train:
+  epochs_step1: 5
+  epochs_step2: 10
+  lr_step1: 0.001
+  lr_step2: 0.00001
+
+training:
+  batch_size: 32
+  epochs: 10
+  image_size: [224, 224]
+  class_weight: auto   # auto면 sklearn으로 자동 계산
