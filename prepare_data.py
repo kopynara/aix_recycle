@@ -122,7 +122,7 @@ if __name__ == "__main__":
     config = load_config()
 
 # 1) 비율로 나누기 (풀데이터)
-# prepare_and_split_data(config)
+prepare_and_split_data(config)
 
 # 2) 소량 샘플링 (빠른 학습 테스트용 → 필요시 주석 해제)
-split_folder_fixed_count(config)
+# split_folder_fixed_count(config)
